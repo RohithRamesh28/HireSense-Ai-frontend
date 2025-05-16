@@ -1,5 +1,5 @@
 import axios from 'axios';
 
-axios.defaults.baseURL = 'https://hire-sense-ai-backend.vercel.app';
+axios.defaults.baseURL = 'https://backend-vercel-resume-2.onrender.com';
 
 export default axios;
