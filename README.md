@@ -18,14 +18,13 @@ The UI is divided into **two main tabs**, each with focused tools and internal s
   - View ranked results with scores, preview links, and download buttons.
 
 ### 📊 Tab 2: ATS Scoring
-- **ATS Scoring**: Upload a single resume and get a score (0–10) based on structure, format, and section clarity.
+- **ATS Scoring**: Upload a single resume and get a score (0–100) based on structure, format, and section clarity.
 - **ATS + JD**: Upload both resume and job description to get a combined ATS + relevance score.
 - **Instant Matching** - upload both resune and jd to get a relevance score,
 
 💡 UI Notes:
-- Upload tab uses a white theme, scoring tab uses a black theme.
+- Upload tab uses a white theme, scoring tab uses a light gray theme.
 - Tabbed interface allows seamless switching with stateful logic.
-- Resume preview is supported before download.
 
 ---
 
@@ -58,13 +57,12 @@ VITE_API_BASE_URL=http://localhost:8070
 npm run dev
 Then open:
 http://localhost:5173
-
+```
 📤 Feature Summary
-Tab	Sub-Tab	Purpose
-Upload & Match	Upload Resumes	Upload multiple resumes in PDF format
-Match with JD	Enter or upload JD to find best-matching resumes
-ATS Scoring	ATS Scoring	Score a resume based on structure and formatting
-ATS + JD	Score a resume in the context of a job description
+Upload & Match	- Upload multiple resumes in PDF format
+Match with JD -	Enter or upload JD to find best-matching resumes
+ATS Scoring	- ATS Scoring	Score a resume based on structure and formatting
+ATS + JD	- Score a resume in the context of a job description
 
 🧪 Development Notes
 Upload limit: 5 resumes previewed, extras shown on hover tooltip.
