@@ -3,6 +3,10 @@
 This is the frontend interface for **Hiresense AI**, an AI-powered resume screening and matching platform. It provides a clean, fast, and user-friendly interface for uploading resumes, matching candidates to job descriptions, scoring resumes like an ATS, and more.
 
 🧠 Works seamlessly with the [Hiresense AI Backend](https://github.com/RohithRamesh28/HireSense-Ai-backend.git)
+# import in your utils.py
+from dotenv import load_dotenv
+load_dotenv()
+
 
 ---
 
